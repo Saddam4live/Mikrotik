@@ -4,7 +4,6 @@ import struct
 import os
 from npk import NovaPackage, NpkPartID, NpkFileContainer
 
-
 def patch_bzimage(data: bytes, key_dict: dict):
     PE_TEXT_SECTION_OFFSET = 414
     HEADER_PAYLOAD_OFFSET = 584
